@@ -1,8 +1,7 @@
-@import url("https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css");
+@import url("terminal.min.css");
 
 :root {
-    --global-font-size: 1em;
-    --global-line-height: 1.4em;
+    --global-line-height: 1.6rem;
     --global-space: 10px;
     --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
         DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace,
@@ -25,29 +24,6 @@
     --display-h1-decoration: none;
 }
 
-img,
-canvas,
-iframe,
-video,
-svg,
-select,
-textarea {
-    max-width: 100%;
-}
-
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-pre {
-    overflow-x: auto;
-}
 
 body {
     max-width: var(--page-width);
