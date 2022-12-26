@@ -1,7 +1,7 @@
 @import url("https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css");
 
 :root {
-    --global-font-size: 15px;
+    --global-font-size: 1em;
     --global-line-height: 1.4em;
     --global-space: 10px;
     --font-stack: Menlo, Monaco, Lucida Console, Liberation Mono,
